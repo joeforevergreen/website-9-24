@@ -1,0 +1,25 @@
+{
+  "name": "website-9-24",
+  "version": "1.0.0",
+  "description": "this is the package json file",
+  "main": "index.html",
+  "scripts": {
+    "start": "http-server ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joeforevergreen/website-9-24.git"
+  },
+  "keywords": [
+    "joeforevergreen"
+  ],
+  "author": "joe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joeforevergreen/website-9-24/issues"
+  },
+  "homepage": "https://github.com/joeforevergreen/website-9-24#readme",
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}
