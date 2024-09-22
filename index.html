@@ -3,31 +3,146 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Joe Pearson</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Joe Pearson - Personal Site</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background-color: #4CAF50;
+            padding: 20px;
+            text-align: center;
+            color: white;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+
+        nav {
+            margin-top: 10px;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        section {
+            padding: 60px 20px;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        .intro {
+            background-color: #ffffff;
+            padding: 40px;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .intro h2 {
+            font-size: 2rem;
+        }
+
+        .intro p {
+            font-size: 1.2rem;
+            line-height: 1.6;
+        }
+
+        .about, .contact {
+            background-color: #ffffff;
+            padding: 40px;
+            border-radius: 10px;
+            margin-top: 30px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .about h2, .contact h2 {
+            font-size: 1.8rem;
+            margin-bottom: 10px;
+        }
+
+        footer {
+            background-color: #4CAF50;
+            padding: 20px;
+            text-align: center;
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2rem;
+            }
+
+            .intro h2, .about h2, .contact h2 {
+                font-size: 1.5rem;
+            }
+
+            .intro p, .about p, .contact p {
+                font-size: 1rem;
+            }
+        }
+    </style>
 </head>
 <body>
-    <header>
-        <nav>
-            <div class="logo">joepearson</div>
-            <ul>
-                <li><a href="pages/about.html">About</a></li>
 
+    <header>
+        <h1>Joe Pearson</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
 
-    <section class="hero">
-        <div class="text-container">
-            <h1>Joe Pearson</h1>
-            <h2>learning<br>creating<br>building</h2>
-        </div>
+    <section class="intro">
+        <h2>Welcome to My Personal Site</h2>
+        <p>Hi! I'm Joe Pearson, an 18-year-old entrepreneur and multi-instrumentalist. This is my personal website where I track my journey in music, education, and entrepreneurship.</p>
+    </section>
+
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <p>I have been surrounded by music my entire life, and I love learning new instruments. I am a classically trained cellist, the drummer in the UPJ Jazz Ensemble, and I also play bass guitar and piano. In addition to music, I am passionate about entrepreneurship, having co-founded Forevergreen with my brother and a close friend.</p>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <p>If you want to get in touch, feel free to send me an email at <a href="mailto:joepearson@pitt.edu">joepearson@pitt.edu</a>. I'm always open to new opportunities and collaborations!</p>
     </section>
 
     <footer>
-        <p>The best way to get into contact with me: joepearson@pitt.edu</p>
-        <p>©2024 by Joe Pearson</p>
+        <p>© 2024 by Joe Pearson | All Rights Reserved</p>
     </footer>
+
 </body>
 </html>
- 
